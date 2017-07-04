@@ -5,31 +5,34 @@ header {
    background:url(../images/bg_header.jpg) no-repeat center center;
        height: 800px;
        background-size:100% 100%;
+       color: #fff;
 h1{
-    color: #fff;
+    width: 550px;
+    
+    margin-left: 360px;
+     span {        
+        font-weight: bold;
+     }
+    
+    
+ }
+
+}
+}
+.text-center {
     p {
-        color:#fff;
+        font-size: 13px; // ne prend pas effet a cause du jumbotron p (vu dans l'inspecteur)
     }
-
 }
-}
-}
-
-
 .logo {
+    color :#000;    
     margin-left: 380px;
     margin-top: -60px;
+    font-size: 25px; // ne prend pas effet a cause du jumbotron p (vu dans l'inspecteur)
 }
-
-h1 { width: 550px;
-    span {        
-        font-weight: bold;
-    }
-    
-}
-
 
 .btn1,.btn2{
+    
     border: none;
     width: 140px;
     height: 55px;
@@ -37,22 +40,59 @@ h1 { width: 550px;
 }
 
 .btn1 {
+    margin-left:460px;
     background-color: #36c4c5;
 }
 .btn2 {
      background-color:#f52257;
 }
 /* features */
+#features {
+    margin-left: 219px;
+     h2 {
+         color:#50554f;     
+     }
+      p {
+         
+         color: #5767b5;
+         width: 230px;
+     }
+     
+}
+.fa-pencil,.fa-camera,.fa-bookmark-o {
+    margin-left: 100px;
+    color : #50554f;
+    
+}
 /* about */
 
 #about {
-    background: url(../images/bg_nuage.jpg);
-    margin-left: 0 auto;
-    width: 1600px;
-    height: 1500px;
-    background-size:100% 100%;
-
+    background: url(../images/bg_nuage.jpg);  
+    width: auto;
+    height: 600px;
+    background-size:100% 100%;   
 }
+ .ligula {
+        opacity: .8; 
+        color:#fff;
+        margin-left:700px;
+        padding-left: 63px;
+        background: #a2d5e6;
+        width : 584px;
+        height: 600px;
+        h3 {
+            padding-top: 86px;
+            width: 270px;
+        }
+        p{
+            padding-top: 55px;
+            font-size: 15px;
+        }
+       
+    }
+
+
+/* blog */
 .btn3 {
      border: none;
     width: 130px;
@@ -73,7 +113,6 @@ h1 { width: 550px;
 
 
 }
-/* blog */
 /* ========== History ===============*/
 
 #history{
