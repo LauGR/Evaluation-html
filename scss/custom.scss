@@ -1,0 +1,136 @@
+/* ================ home =========================*/
+header {
+   
+.jumbotron {
+   background:url(../images/bg_header.jpg) no-repeat center center;
+       height: 800px;
+       background-size:100% 100%;
+h1{
+    color: #fff;
+    p {
+        color:#fff;
+    }
+
+}
+}
+}
+
+
+.logo {
+    margin-left: 380px;
+    margin-top: -60px;
+}
+
+h1 { width: 550px;
+    span {        
+        font-weight: bold;
+    }
+    
+}
+
+
+.btn1,.btn2{
+    border: none;
+    width: 140px;
+    height: 55px;
+    color:#fff;
+}
+
+.btn1 {
+    background-color: #36c4c5;
+}
+.btn2 {
+     background-color:#f52257;
+}
+/* features */
+/* about */
+
+#about {
+    background: url(../images/bg_nuage.jpg);
+    margin-left: 0 auto;
+    width: 1600px;
+    height: 1500px;
+    background-size:100% 100%;
+
+}
+.btn3 {
+     border: none;
+    width: 130px;
+    height: 37px;
+    background-color: #f52257;
+    color:#fff;
+}
+#blog {
+    h3 {
+        width: 300px;
+        color : #515757;
+    }
+    p {
+        color : #515757;
+        font-size: 13px;
+        width: 490px;
+    }
+
+
+}
+/* blog */
+/* ========== History ===============*/
+
+#history{
+    background: url(../images/bg_appareil_photo.jpg);
+    height: 654px;
+    background-size:100% 100%;
+    p {
+        background-color: #a2d5e6;
+        color:#fff;
+        width: 450px;
+        height: 654px;
+    }    
+}
+
+.littlep {
+    font-size: 14px;
+}
+/* Photos */
+/* Partneaires*/
+
+/* =============== Contact ================*/
+
+ #contact {
+     background: transparent url(../images/bg_newsletter.jpg);
+     // filter: blur(10px);
+     width: auto;
+     height: 475px;
+     background-size:100% 100%;
+    padding-left : 219px;
+    padding-top : 85px;
+    color : #fff;
+        h4 {
+            width:329px;
+        }
+        p{
+            width: 629px;
+        }
+}
+
+.btn4 {
+    border: none;
+    width: 140px;
+    height: 37px;
+    background-color : #f52257;
+    
+}
+
+/* footer */
+
+footer {
+    background: #24323b;
+    height: 189px;
+    
+    h4,p {
+        color: #fff;
+    }
+    span {
+        color:#32bdc0;
+    }
+}
