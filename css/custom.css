@@ -75,7 +75,7 @@ header .jumbotron {
   padding-left: 63px;
   background: #a2d5e6;
   width: 580px;
-  height: 840px; }
+  height: 820px; }
   .ligula h3 {
     padding-top: 86px;
     width: 270px; }
@@ -84,11 +84,26 @@ header .jumbotron {
     padding-top: 55px;
     font-size: 15px; }
 
-/* blog */
-.girl {
-  width: 454px;
-  height: 300px;
-  float: right; }
+.ultricies {
+  border: 1px solid #fff; }
+
+.ferm {
+  border: 1px solid #fff; }
+
+/*=============== blog ================= */
+.media-body {
+  padding-top: 82px;
+  padding-left: 500px; }
+
+.media-object {
+  width: 460px;
+  height: 460px;
+  margin-right: 50px;
+  margin-top: 36px; }
+
+.media-heading {
+  width: 400px;
+  font-size: 24px; }
 
 .btn3 {
   border: none;
@@ -96,6 +111,9 @@ header .jumbotron {
   height: 37px;
   background-color: #f52257;
   color: #fff; }
+
+.fa-arrow-circle-o-right {
+  margin-left: 10px; }
 
 #blog h3 {
   width: 300px;
