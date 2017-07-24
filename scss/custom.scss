@@ -1,4 +1,4 @@
-/* ================ home =========================*/
+/* ================ home =================*/
 
 header {
     .jumbotron {
@@ -60,7 +60,7 @@ header {
 }
 
 
-/* features */
+/*================ features ================*/
 
 #features {
     margin-left: 219px;
@@ -82,7 +82,7 @@ header {
 }
 
 
-/* about */
+/*============== about ======================*/
 
 #about {
     background: url(../images/bg_nuage.jpg);
@@ -120,20 +120,24 @@ header {
 
 
 /*=============== blog ================= */
+
 .media-body {
     padding-top: 82px;
     padding-left: 500px;
 }
+
 .media-object {
     width: 460px;
     height: 460px;
     margin-right: 50px;
     margin-top: 36px;
 }
-.media-heading{
+
+.media-heading {
     width: 400px;
     font-size: 24px;
 }
+
 .btn3 {
     border: none;
     width: 130px;
@@ -141,9 +145,11 @@ header {
     background-color: #f52257;
     color: #fff;
 }
+
 .fa-arrow-circle-o-right {
     margin-left: 10px;
 }
+
 #blog {
     h3 {
         width: 300px;
@@ -157,35 +163,43 @@ header {
 }
 
 
-/* ========== History ===============*/
+/* ============= History ===============*/
 
 #history {
     background: url(../images/bg_appareil_photo.jpg);
     height: 654px;
     background-size: 100% 100%;
     p {
+        margin-left: 212px;
         background-color: #a2d5e6;
-        color: #fff;
+        opacity: 0.8;
         width: 450px;
         height: 654px;
+        text-align: center;
+        color: #fff;
     }
 }
 
+.donecsed {
+    padding-top: 54px;
+    font-style: italic;
+    font-size: 21px;
+}
+
 .littlep {
+    font-style: italic;
     font-size: 14px;
 }
 
 
-/* Photos */
-
-
-/* Partneaires*/
+/*============== Photos ==============*/
 
 
 /* =============== Contact ================*/
 
 #contact {
-    background: transparent url(../images/bg_newsletter.jpg); // filter: blur(10px);
+    background: transparent url(../images/bg_newsletter.jpg);
+    opacity: 0.4;
     width: auto;
     height: 475px;
     background-size: 100% 100%;
@@ -215,9 +229,16 @@ footer {
     height: 189px;
     h4,
     p {
+        width: 550px;
+        margin-left: 200px;
+        padding-top: 52px;
         color: #fff;
     }
     span {
+        color: #32bdc0;
+    }
+    .typcn-social-facebook-circular,
+    .typcn-social-twitter-circular {
         color: #32bdc0;
     }
 }

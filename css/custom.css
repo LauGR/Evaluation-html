@@ -1,4 +1,4 @@
-/* ================ home =========================*/
+/* ================ home =================*/
 header .jumbotron {
   background: url(../images/bg_header.jpg) no-repeat center;
   height: 800px;
@@ -45,7 +45,7 @@ header .jumbotron {
 .btn2 {
   background-color: #f52257; }
 
-/* features */
+/*================ features ================*/
 #features {
   margin-left: 219px; }
   #features h2 {
@@ -61,7 +61,7 @@ header .jumbotron {
   margin-left: 100px;
   color: #50554f; }
 
-/* about */
+/*============== about ======================*/
 #about {
   background: url(../images/bg_nuage.jpg);
   width: auto;
@@ -123,25 +123,34 @@ header .jumbotron {
   font-size: 13px;
   width: 490px; }
 
-/* ========== History ===============*/
+/* ============= History ===============*/
 #history {
   background: url(../images/bg_appareil_photo.jpg);
   height: 654px;
   background-size: 100% 100%; }
   #history p {
+    margin-left: 212px;
     background-color: #a2d5e6;
-    color: #fff;
+    opacity: 0.8;
     width: 450px;
-    height: 654px; }
+    height: 654px;
+    text-align: center;
+    color: #fff; }
+
+.donecsed {
+  padding-top: 54px;
+  font-style: italic;
+  font-size: 21px; }
 
 .littlep {
+  font-style: italic;
   font-size: 14px; }
 
-/* Photos */
-/* Partneaires*/
+/*============== Photos ==============*/
 /* =============== Contact ================*/
 #contact {
   background: transparent url(../images/bg_newsletter.jpg);
+  opacity: 0.4;
   width: auto;
   height: 475px;
   background-size: 100% 100%;
@@ -165,8 +174,14 @@ footer {
   height: 189px; }
   footer h4,
   footer p {
+    width: 550px;
+    margin-left: 200px;
+    padding-top: 52px;
     color: #fff; }
   footer span {
+    color: #32bdc0; }
+  footer .typcn-social-facebook-circular,
+  footer .typcn-social-twitter-circular {
     color: #32bdc0; }
 
 /*# sourceMappingURL=custom.css.map */
