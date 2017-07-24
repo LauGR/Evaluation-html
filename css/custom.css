@@ -1,25 +1,38 @@
 /* ================ home =========================*/
 header .jumbotron {
-  background: url(../images/bg_header.jpg) no-repeat center center;
+  background: url(../images/bg_header.jpg) no-repeat center;
   height: 800px;
   background-size: 100% 100%;
   color: #fff; }
   header .jumbotron h1 {
     width: 550px;
-    margin-left: 360px; }
+    margin-top: 60px;
+    margin-left: 300px;
+    font-size: 50px; }
     header .jumbotron h1 span {
       font-weight: bold; }
+  header .jumbotron img {
+    width: 300px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: -170px; }
 
 .text-center p {
-  font-size: 13px; }
+  font-size: 15px;
+  opacity: 0.8;
+  width: 470px;
+  margin-top: 50px;
+  margin-left: 370px; }
 
 .logo {
   color: #000;
-  margin-left: 380px;
-  margin-top: -60px;
-  font-size: 25px; }
+  margin-left: 130px;
+  margin-top: -80px;
+  font-size: 55px; }
 
-.btn1, .btn2 {
+.btn1,
+.btn2 {
+  margin-top: 50px;
   border: none;
   width: 140px;
   height: 55px;
@@ -41,7 +54,9 @@ header .jumbotron {
     color: #5767b5;
     width: 230px; }
 
-.fa-pencil, .fa-camera, .fa-bookmark-o {
+.fa-pencil,
+.fa-camera,
+.fa-bookmark-o {
   margin-left: 100px;
   color: #50554f; }
 
@@ -68,6 +83,11 @@ header .jumbotron {
     font-size: 15px; }
 
 /* blog */
+.girl {
+  width: 454px;
+  height: 300px;
+  float: right; }
+
 .btn3 {
   border: none;
   width: 130px;
@@ -123,7 +143,8 @@ header .jumbotron {
 footer {
   background: #24323b;
   height: 189px; }
-  footer h4, footer p {
+  footer h4,
+  footer p {
     color: #fff; }
   footer span {
     color: #32bdc0; }
