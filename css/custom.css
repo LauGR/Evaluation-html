@@ -52,7 +52,8 @@ header .jumbotron {
     color: #50554f; }
   #features p {
     color: #5767b5;
-    width: 230px; }
+    width: 300px;
+    padding-top: 20px; }
 
 .fa-pencil,
 .fa-camera,
@@ -64,21 +65,22 @@ header .jumbotron {
 #about {
   background: url(../images/bg_nuage.jpg);
   width: auto;
-  height: 600px;
-  background-size: 100% 100%; }
+  height: 840px;
+  background-size: 100%; }
 
 .ligula {
-  opacity: .8;
+  opacity: 0.7;
   color: #fff;
   margin-left: 700px;
   padding-left: 63px;
   background: #a2d5e6;
-  width: 584px;
-  height: 600px; }
+  width: 580px;
+  height: 840px; }
   .ligula h3 {
     padding-top: 86px;
     width: 270px; }
   .ligula p {
+    width: 400px;
     padding-top: 55px;
     font-size: 15px; }
 
